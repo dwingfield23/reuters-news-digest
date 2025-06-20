@@ -1,8 +1,13 @@
-# misc
+# Logs and generated files
 /logs/
-/bat/
+*.log
 *.csv
-*.html
+daily_digest.html
+
+# Local scripts
+/bat/
+
+# Python
 __pycache__/
 *.pyc
 .venv/
