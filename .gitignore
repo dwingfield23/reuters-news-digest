@@ -1,0 +1,15 @@
+# misc
+/logs/
+/bat/
+*.csv
+*.html
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

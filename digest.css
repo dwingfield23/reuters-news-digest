@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+summary {
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 6px;
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+}
+
+details {
+  margin-bottom: 20px;
+}
+
+details > summary::marker {
+  font-size: 1.2em;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+p.time {
+  color: #7f8c8d;
+  font-size: 0.9em;
+  margin: 0 0 4px 0;
+}
+
+p.summary {
+  font-size: 0.95em;
+  color: #555;
+  margin: 0 0 12px 0;
+}
+
+li {
+  margin-bottom: 12px;
+  list-style-type: none;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
